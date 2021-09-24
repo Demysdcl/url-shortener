@@ -47,11 +47,13 @@ npm manifest:
       "dotenv": "^10.0.0",
       "express": "^4.17.1",
       "mongose": "^0.0.2-security",
-      "nodemon": "^2.0.13"
+      "nodemon": "^2.0.13",
+      "shortid": "^2.2.16"
     },
     "devDependencies": {
       "@types/express": "^4.17.13",
       "@types/node": "^16.9.6",
+      "@types/shortid": "^0.0.29",
       "@typescript-eslint/eslint-plugin": "^4.31.2",
       "@typescript-eslint/parser": "^4.31.2",
       "eslint": "^7.32.0",
@@ -773,6 +775,11 @@ Lockfile:
     dependencies:
       "@types/mime" "^1"
       "@types/node" "*"
+  
+  "@types/shortid@^0.0.29":
+    version "0.0.29"
+    resolved "https://registry.yarnpkg.com/@types/shortid/-/shortid-0.0.29.tgz#8093ee0416a6e2bf2aa6338109114b3fbffa0e9b"
+    integrity sha1-gJPuBBam4r8qpjOBCRFLP7/6Dps=
   
   "@types/stack-utils@^2.0.0":
     version "2.0.1"
@@ -3056,6 +3063,11 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/nanocolors/-/nanocolors-0.1.12.tgz#8577482c58cbd7b5bb1681db4cf48f11a87fd5f6"
     integrity sha512-2nMHqg1x5PU+unxX7PGY7AuYxl2qDx7PSrTRjizr8sxdd3l/3hBuWWaki62qmtYm2U5i4Z5E7GbjlyDFhs9/EQ==
   
+  nanoid@^2.1.0:
+    version "2.1.11"
+    resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-2.1.11.tgz#ec24b8a758d591561531b4176a01e3ab4f0f0280"
+    integrity sha512-s/snB+WGm6uwi0WjsZdaVcuf3KJXlfGl2LcxgwkEwJF0D/BWzVWAZW/XY4bFaiR7s0Jk3FPvlnepg1H1b1UwlA==
+  
   natural-compare@^1.4.0:
     version "1.4.0"
     resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
@@ -3582,6 +3594,13 @@ Lockfile:
     version "3.0.0"
     resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
     integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
+  
+  shortid@^2.2.16:
+    version "2.2.16"
+    resolved "https://registry.yarnpkg.com/shortid/-/shortid-2.2.16.tgz#b742b8f0cb96406fd391c76bfc18a67a57fe5608"
+    integrity sha512-Ugt+GIZqvGXCIItnsL+lvFJOiN7RYqlGy7QE41O3YC1xbNSeDGIRO7xg2JJXIAj1cAGnOeC1r7/T9pgrtQbv4g==
+    dependencies:
+      nanoid "^2.1.0"
   
   signal-exit@^3.0.2, signal-exit@^3.0.3:
     version "3.0.4"
