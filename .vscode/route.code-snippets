@@ -1,0 +1,10 @@
+{
+  "Create base route ts": {
+    "scope": "typescript",
+    "prefix": "dcl-route",
+    "body": [
+      "app.${1:httpMethod}('/${2:url}', ${3:name}Controller.${4:func})",
+    ],
+    "description": "Log output to console"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Create base class": {
+    "scope": "typescript",
+    "prefix": "dcl-controller",
+    "body": [
+      "import {Request, Response} from 'express'",
+      "",
+      "export default class ${1:className} {",
+      "\tpublic async ${2:funcName}(req: Request,res: Response): Promise<void>{",
+      "\t",
+      "\t}",
+      "}"
+    ]
+  },
+  "Create base function": {
+    "scope": "typescript",
+    "prefix": "dcl-function-http",
+    "body": [
+      "\tpublic async ${2:funcName}(req: Request,res: Response): Promise<void>{",
+      "\t",
+      "\t}"
+    ]
+  }
+}
